@@ -1,13 +1,12 @@
 <!-- AquaRev Water — Hilton Grand Vacations Club Paradise Case Study · Webflow Embed
      CSS: https://jeffatley-web.github.io/hiltonlv/hilton-hgvc-paradise.css
      Repo: https://github.com/jeffatley-web/hiltonlv
-     Body content: 38,352 chars (under Webflow's ~50K embed limit).
+     Body content: 33,397 chars (under Webflow's ~50K embed limit).
 -->
 <link rel="stylesheet" href="https://jeffatley-web.github.io/hiltonlv/hilton-hgvc-paradise.css" />
 
 <style>
-  /* Embed-only: break out of Webflow's constrained .w-container parent
-     so the case study renders at full viewport width. */
+  /* Embed-only: break out of Webflow's constrained .w-container parent. */
   .aquarev-case-study {
     width: 100vw;
     position: relative;
@@ -198,7 +197,7 @@
   <div class="section vol-section">
     <div class="eyebrow">30-Day Pilot Cost Variance — Family Pool</div>
     <h2>Immediate impact across every cost center — measured over a 30-day pre / post window.</h2>
-    <p class="lead">Normalized 30-day pre vs. post-install cost per cost center for the <b>Family Pool</b>. Three measured reductions match the operator's published case study card exactly (<b>89% water · 41% chlorine · 33% acid</b>); energy is modeled at 20% from pump-cycle optimization on the AquaRev framework. Annualized savings shown beneath each card project the 30-day measured rate to a full year.</p>
+    <p class="lead">Normalized 30-day pre vs. post-install cost per cost center for the <b>Family Pool</b>. Three measured reductions match the operator's published case study card exactly (<b>89% water · 41% chlorine · 33% acid</b>). Annualized savings shown beneath each card project the 30-day measured rate to a full year. Energy was not separately measured during this pilot.</p>
 
     <div class="vol-grid">
 
@@ -282,36 +281,6 @@
 
     </div>
 
-    <div class="vol-grid" style="grid-template-columns: 1fr; max-width: 580px; margin: 16px auto 0;">
-
-      <!-- ENERGY (PUMP + AUX) -->
-      <div class="vol-card energy" style="border-top: 4px solid #B89B5E;">
-        <div class="vol-name">Energy (Pump + Aux)</div>
-        <div class="vol-unit">30-day cost (kWh × $0.12/kWh)</div>
-        <div class="vol-totals">
-          <div class="total-block"><div class="yr">Pre 30-day</div><div class="num">$272</div></div>
-          <div class="total-block post"><div class="yr">Post 30-day</div><div class="num">$217</div></div>
-          <div class="delta">−20%</div>
-        </div>
-        <div style="margin-top: 18px;">
-          <div style="display: flex; align-items: center; gap: 12px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px;">
-            <span style="width: 50px;">Pre</span>
-            <div style="flex: 1; height: 22px; background: #F5F7FA; border-radius: 4px; position: relative; overflow: hidden;">
-              <div style="position: absolute; inset: 0; width: 100%; background: linear-gradient(90deg, #143654 0%, #0A2540 100%); border-radius: 4px; display: flex; align-items: center; padding: 0 10px; color: #fff; font-size: 11px; font-weight: 700;">$272</div>
-            </div>
-          </div>
-          <div style="display: flex; align-items: center; gap: 12px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em;">
-            <span style="width: 50px;">Post</span>
-            <div style="flex: 1; height: 22px; background: #F5F7FA; border-radius: 4px; position: relative; overflow: hidden;">
-              <div style="position: absolute; inset: 0; width: 79.8%; background: linear-gradient(90deg, #15a268 0%, #0a7548 100%); border-radius: 4px; display: flex; align-items: center; padding: 0 10px; color: #fff; font-size: 11px; font-weight: 700;">$217</div>
-            </div>
-          </div>
-        </div>
-        <div class="vol-marker" style="margin-top: 18px;">Modeled 20% reduction from pump-cycle optimization (per AquaRev framework).<br/>Annualized savings: <b>$652</b> / year.</div>
-      </div>
-
-    </div>
-
     <div class="model-method-box" style="margin-top: 28px;">
       <div class="mmb-title">Combined Annual Savings — Family Pool (Annualized)</div>
       <div class="mmb-row" style="grid-template-columns: 200px 1fr;">
@@ -326,23 +295,19 @@
         <div class="mmb-k">Water Replacement</div>
         <div class="mmb-v"><b>$1,644</b> / yr  ·  ~30,500 gal/30 days saved · per published <b>−89%</b> × $4.50/kgal (LVVWD water + sewer commercial)</div>
       </div>
-      <div class="mmb-row" style="grid-template-columns: 200px 1fr;">
-        <div class="mmb-k">Energy (Pump + Aux)</div>
-        <div class="mmb-v"><b>$652</b> / yr  ·  modeled 20% reduction · NV Energy commercial avg $0.12/kWh</div>
-      </div>
       <div class="mmb-row" style="grid-template-columns: 200px 1fr; background: var(--green-soft); margin: 12px -16px -8px; padding: 14px 16px; border-radius: 8px; border: none;">
         <div class="mmb-k" style="color: var(--green);">TOTAL ANNUALIZED</div>
-        <div class="mmb-v" style="font-weight: 800; color: var(--green); font-size: 16px;">$6,184 / yr per Family Pool · before labor, downtime, and chemical-handling upside</div>
+        <div class="mmb-v" style="font-weight: 800; color: var(--green); font-size: 16px;">$5,532 / yr per Family Pool · before labor, downtime, and chemical-handling upside</div>
       </div>
     </div>
-    <div class="vol-footnote">30-day numbers are extrapolated from the operator's measured 14-day pre and 14-day post windows (× 30/14 normalization). Reductions are anchored to the operator's published case study card. Energy is modeled at the AquaRev framework's 20% reduction figure since pump-cycle data wasn't separately captured at this property. Family Spa results (chlorine −72%, acid −54%, water ~0%) are shown separately in the Forward-Looking section.</div>
+    <div class="vol-footnote">30-day numbers are extrapolated from the operator's measured 14-day pre and 14-day post windows (× 30/14 normalization). Reductions are anchored to the operator's published case study card. Energy was not separately captured during the pilot and is intentionally excluded from this model. Family Spa results (chlorine −72%, acid −54%, water ~0%) are shown separately in the Forward-Looking section.</div>
   </div>
 
   <!-- PILOT POOL OPERATIONAL MODEL — Family Pool 30-day measured pilot, normalized -->
   <div class="section">
     <div class="eyebrow">Pilot Pool Operational Model</div>
-    <h2>$6,184 in modeled annual savings — on the Family Pool, before labor and chemical-handling upside.</h2>
-    <p class="lead">Family Pool 30-day pilot results, normalized to the operator's published reductions and translated to dollars at current Las Vegas utility and chemical rates. Chemical line items use measured 14-day pre data (extrapolated × 30/14) at the published 41% / 33% reductions. Water uses the published 89% reduction at LVVWD commercial rates. Energy is modeled per the AquaRev framework's 20% pump-cycle reduction.</p>
+    <h2>$5,532 in modeled annual savings — on the Family Pool, before labor and chemical-handling upside.</h2>
+    <p class="lead">Family Pool 30-day pilot results, normalized to the operator's published reductions and translated to dollars at current Las Vegas utility and chemical rates. Chemical line items use measured 14-day pre data (extrapolated × 30/14) at the published 41% / 33% reductions. Water uses the published 89% reduction at LVVWD commercial rates. Energy was not separately measured during the pilot and is excluded from this model.</p>
 
     <div class="pool-model-grid">
 
@@ -384,40 +349,19 @@
         <div class="method-note">Pre 30-day water use extrapolated from measured 14-day auto-fill total (16,000 gal × 30/14). Post 30-day matches measured rate. Reduction matches published <b>89%</b> headline. Rate: <b>$4.50 / 1,000 gal</b> (LVVWD commercial water + Clark County sewer, 2025 — to be verified at deployment).</div>
       </div>
 
-      <!-- ENERGY -->
-      <div class="pool-model-card energy">
-        <div class="icon-row">
-          <div class="ico">⚡</div>
-          <div class="name">Energy (Pump + Aux)</div>
-        </div>
-        <div class="pct-tag">−20% MODELED · AQUAREV FRAMEWORK</div>
-        <div class="lines">
-          <div class="line"><span class="k">Pump (2.5 HP, 24/7)</span><span class="v">16,294 kWh</span></div>
-          <div class="line"><span class="k">Aux fixed loads</span><span class="v">10,862 kWh</span></div>
-          <div class="line"><span class="k">Total baseline</span><span class="v">27,156 kWh</span></div>
-          <div class="line"><span class="k">Total post-install</span><span class="v">21,725 kWh</span></div>
-          <div class="line"><span class="k">Energy saved</span><span class="v">5,431 kWh / yr</span></div>
-          <div class="line sub"><span class="k">Cost baseline</span><span class="v">$3,259 / yr</span></div>
-          <div class="line sub"><span class="k">Cost post</span><span class="v">$2,607 / yr</span></div>
-        </div>
-        <div class="save-strip"><span class="lbl">Annual Saved</span><span class="amt">$652</span></div>
-        <div class="method-note">Pump represents <b>~60%</b> of pool electrical (controls / lighting / heater standby = 40% fixed). Cycle reduction <b>6 → 4 turnovers/hr</b> = 33% pump duty cut → net <b>20% total facility reduction</b>, the AquaRev framework default. Energy not separately metered at this property. Rate: <b>$0.12/kWh</b> (NV Energy commercial avg, 2025 — to be verified at deployment).</div>
-      </div>
-
     </div>
 
     <!-- TOTAL -->
     <div class="pool-model-total">
       <div>
-        <div class="total-num">$6,184</div>
+        <div class="total-num">$5,532</div>
         <div class="total-label">Modeled Annual Savings · Family Pool</div>
-        <div class="total-sub">Quantified line items only. Based on operator-published reductions × Las Vegas commercial utility rates.</div>
+        <div class="total-sub">Chemicals + Water only — energy not measured in pilot. Based on operator-published reductions × Las Vegas commercial rates.</div>
       </div>
       <div class="total-breakdown">
         <div class="bd-row"><span class="k">Chemicals</span><b>$3,888</b></div>
         <div class="bd-row"><span class="k">Water</span><b>$1,644</b></div>
-        <div class="bd-row"><span class="k">Energy</span><b>$652</b></div>
-        <div class="bd-row"><span class="k" style="font-weight: 800; opacity: 1;">TOTAL</span><b style="color: var(--aqua);">$6,184</b></div>
+        <div class="bd-row"><span class="k" style="font-weight: 800; opacity: 1;">TOTAL</span><b style="color: var(--aqua);">$5,532</b></div>
       </div>
     </div>
 
@@ -442,10 +386,6 @@
         <div class="mmb-v"><code>$4.50 / 1,000 gal</code> = LVVWD commercial water + Clark County Water Reclamation sewer (estimated, 2025)<span class="src">Source: Las Vegas Valley Water District commercial tier rates; Clark County Water Reclamation District commercial sewer fee. <i>To be verified against current published rate schedule prior to deployment.</i></span></div>
       </div>
       <div class="mmb-row">
-        <div class="mmb-k">Energy Rate</div>
-        <div class="mmb-v"><code>$0.12 / kWh</code> = NV Energy commercial average for Southern Nevada<span class="src">Source: NV Energy commercial rate schedules, 2025. <i>To be verified against current Schedule LGS or equivalent prior to deployment.</i></span></div>
-      </div>
-      <div class="mmb-row">
         <div class="mmb-k">Chemicals</div>
         <div class="mmb-v"><code>$4.00 / gal</code> commercial liquid chlorine (12.5% sodium hypochlorite) · <code>$6.00 / gal</code> commercial muriatic acid (31% HCl)<span class="src">Mid-range commercial pool-supply pricing for Las Vegas market, 2025. <i>To be verified against the property's invoiced unit prices.</i></span></div>
       </div>
@@ -464,20 +404,20 @@
   <!-- FORWARD-LOOKING OUTLOOK — Family Pool + Family Spa combined projection -->
   <div class="section" style="background: var(--paper);">
     <div class="eyebrow">Forward-Looking Outlook · Pool + Spa Combined</div>
-    <h2>$9,952 in projected annual savings across the Family Pool and Family Spa.</h2>
-    <p class="lead">Combining the published Family Pool reductions (89% / 41% / 33%) with the operator's measured Family Spa reductions (72% chlorine, 54% acid, 0% water — spa hydraulics are dragout-dominated, not evaporation-dominated). Total annualized operational savings across both pilot water bodies.</p>
+    <h2>$9,300 in projected annual savings across the Family Pool and Family Spa.</h2>
+    <p class="lead">Combining the published Family Pool reductions (89% / 41% / 33%) with the operator's measured Family Spa reductions (72% chlorine, 54% acid, 0% water — spa hydraulics are dragout-dominated, not evaporation-dominated). Energy was not measured in this pilot and is excluded from these totals.</p>
 
     <div class="forward-hero">
       <div>
-        <div class="fh-num">$9,952</div>
+        <div class="fh-num">$9,300</div>
         <div class="fh-lbl">Projected Annual Savings · Year 1</div>
-        <div class="fh-sub">Family Pool ($6,184) + Family Spa ($3,768) annualized at Las Vegas commercial rates</div>
+        <div class="fh-sub">Family Pool ($5,532) + Family Spa ($3,768) annualized at Las Vegas commercial rates</div>
       </div>
       <div class="fh-context">
-        <div class="ctx-row"><span>Family Pool savings</span><b>$6,184 / yr</b></div>
+        <div class="ctx-row"><span>Family Pool savings</span><b>$5,532 / yr</b></div>
         <div class="ctx-row"><span>Family Spa savings</span><b>$3,768 / yr</b></div>
         <div class="ctx-row"><span>Water saved (annual)</span><b>~366,000 gal</b></div>
-        <div class="ctx-row"><span>Energy saved (annual, pool only)</span><b>~5,400 kWh</b></div>
+        
       </div>
     </div>
 
@@ -491,14 +431,13 @@
             <th>Chlorine</th>
             <th>Acid</th>
             <th>Water</th>
-            <th>Energy</th>
             <th>Annual Savings</th>
           </tr>
         </thead>
         <tbody>
-          <tr class="pilot-row"><td>Family Pool</td><td>−41%</td><td>−33%</td><td>−89%</td><td>−20% (modeled)</td><td>$6,184</td></tr>
-          <tr><td>Family Spa</td><td>−72%</td><td>−54%</td><td>~0% (operator note)</td><td>n/a</td><td>$3,768</td></tr>
-          <tr class="total-row"><td>TOTAL · Pool + Spa</td><td>—</td><td>—</td><td>—</td><td>—</td><td>$9,952</td></tr>
+          <tr class="pilot-row"><td>Family Pool</td><td>−41%</td><td>−33%</td><td>−89%</td><td>$5,532</td></tr>
+          <tr><td>Family Spa</td><td>−72%</td><td>−54%</td><td>~0% (operator note)</td><td>$3,768</td></tr>
+          <tr class="total-row"><td>TOTAL · Pool + Spa</td><td>—</td><td>—</td><td>—</td><td>$9,300</td></tr>
         </tbody>
       </table>
       <div class="config-extra">
@@ -508,7 +447,7 @@
 
     <h3 style="margin-top: 32px; margin-bottom: 4px;">Annual Savings by Category · Pool + Spa Combined</h3>
     <p style="font-size: 13px; color: var(--muted); margin: 0;">Each line item rolls up Pool (with energy) and Spa (chemicals only) annualized rates.</p>
-    <div class="line-items-grid">
+    <div class="line-items-grid" style="grid-template-columns: repeat(2, 1fr);">
       <div class="li-card chemicals">
         <div class="li-name">Chemicals</div>
         <div class="li-num">$7,656 / yr</div>
@@ -518,11 +457,6 @@
         <div class="li-name">Water Replacement</div>
         <div class="li-num">$1,644 / yr</div>
         <div class="li-sub"><b>~366,000 gal</b> saved annually — Pool only · LVVWD commercial + sewer estimated $4.50/kgal</div>
-      </div>
-      <div class="li-card energy">
-        <div class="li-name">Energy (Pump + Aux)</div>
-        <div class="li-num">$652 / yr</div>
-        <div class="li-sub"><b>~5,400 kWh</b> saved annually — Pool pump only · NV Energy commercial $0.12/kWh</div>
       </div>
     </div>
 
@@ -541,7 +475,7 @@
         <li><b>Independent data capture:</b> all daily measurements taken on-site by <b>Quality One Pool Management</b> (Aquatic System Professionals), the property's commercial pool service partner.</li>
         <li><b>Daily metrics:</b> air temperature, weather, liquid chlorine added (gal), muriatic acid added (gal), sodium bicarbonate added (lbs), water-meter reading, manual fill amount, and full chemistry panel — TCL, FCL, pH, ALK, calcium hardness, CYA.</li>
         <li><b>Headline reductions:</b> 89% water · 41% chlorine · 33% acid — calculated using the operator's weekly-average comparison method on Family Pool data, validated and published as the official AquaRev customer case study card. Sodium bicarbonate excluded due to a documented rain-driven anomaly in the post window.</li>
-        <li><b>Las Vegas utility rates:</b> water $4.50/1,000 gal (LVVWD commercial water + Clark County sewer, est. 2025); energy $0.12/kWh (NV Energy commercial avg). Both to be verified against current published schedules at deployment.</li>
+        <li><b>Las Vegas utility rate:</b> water $4.50/1,000 gal (LVVWD commercial water + Clark County sewer, est. 2025) — to be verified against current published schedule at deployment.</li>
         <li><b>Chemical pricing:</b> $4/gal liquid chlorine (12.5%) and $6/gal muriatic acid (31%) — mid-range commercial pool-supply pricing for the Las Vegas market, to be reconciled to property's invoiced unit prices.</li>
         <li><b>Validation:</b> three published reductions appear on AquaRev's official Hilton Grand Vacations Club Paradise customer case study card.</li>
       </ul>
